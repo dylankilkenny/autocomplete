@@ -44,7 +44,7 @@ const completionSpec: Fig.Spec = {
       icon: "🔍",
       name: "Inspect Tenant",
       insertValue:
-        "\b\byarn admin:inspect-tenant {cursor} > inspections/inspect.md; code-insiders inspections/inspect.md",
+        "\b\byarn admin:inspect-tenant {cursor} > inspections/inspect.md; code inspections/inspect.md",
       description: "Inspect a tenant",
     },
   ],
